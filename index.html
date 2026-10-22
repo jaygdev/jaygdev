@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jay Geoffrey — Principal Consultant, Jay Geoffrey Advisory (New York, NY)</title>
+  <meta name="description" content="Independent digital strategist, technical systems architect, and behind-the-scenes media operations partner advising independent NYC authors, podcasters, and educators." />
+  <link rel="canonical" href="https://jaygdev.github.io/" />
+  <meta property="og:title" content="Jay Geoffrey — Digital Strategy, Technical SEO, AI Workflows & Media Operations" />
+  <meta property="og:description" content="Independent digital strategist, technical systems architect, and behind-the-scenes media operations partner advising independent NYC authors, podcasters, and educators." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://jaygdev.github.io/" />
+  <style>
+    :root {
+      --bg: #fafafa;
+      --surface: #ffffff;
+      --text: #111827;
+      --muted: #4b5563;
+      --subtle: #6b7280;
+      --border: #e5e7eb;
+      --accent: #0f172a;
+      --accent-soft: #f1f5f9;
+      --tag-bg: #f3f4f6;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+    .container {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 64px 24px 88px;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 36px;
+      margin-bottom: 40px;
+    }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.8125rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--subtle);
+      margin-bottom: 14px;
+    }
+    .dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background-color: #10b981;
+      display: inline-block;
+    }
+    h1 {
+      font-size: 2.125rem;
+      font-weight: 700;
+      letter-spacing: -0.025em;
+      line-height: 1.2;
+      color: var(--text);
+      margin-bottom: 10px;
+    }
+    .subtitle {
+      font-size: 1.0625rem;
+      font-weight: 500;
+      color: var(--muted);
+      margin-bottom: 20px;
+    }
+    .bio {
+      font-size: 1.0625rem;
+      color: var(--text);
+      max-width: 680px;
+      margin-bottom: 24px;
+    }
+    .contact-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 9px 16px;
+      border-radius: 6px;
+      font-size: 0.875rem;
+      font-weight: 500;
+      text-decoration: none;
+      transition: all 0.15s ease;
+    }
+    .btn-primary {
+      background-color: var(--accent);
+      color: #ffffff;
+      border: 1px solid var(--accent);
+    }
+    .btn-primary:hover {
+      background-color: #1e293b;
+    }
+    .btn-secondary {
+      background-color: var(--surface);
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+    .btn-secondary:hover {
+      background-color: var(--accent-soft);
+    }
+    section {
+      margin-bottom: 44px;
+    }
+    h2 {
+      font-size: 0.875rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--subtle);
+      margin-bottom: 18px;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+    }
+    .card {
+      background-color: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 24px;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+    }
+    .card h3 {
+      font-size: 1.0625rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+    .card p {
+      font-size: 0.95rem;
+      color: var(--muted);
+      margin-bottom: 14px;
+    }
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .tag {
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: var(--muted);
+      background-color: var(--tag-bg);
+      padding: 4px 10px;
+      border-radius: 999px;
+    }
+    .engagement-box {
+      background-color: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 24px;
+    }
+    .engagement-box p {
+      font-size: 0.95rem;
+      color: var(--muted);
+      margin-bottom: 12px;
+    }
+    .engagement-box p:last-child {
+      margin-bottom: 0;
+    }
+    footer {
+      border-top: 1px solid var(--border);
+      padding-top: 28px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 0.85rem;
+      color: var(--subtle);
+    }
+    footer a {
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 500;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Jay Geoffrey",
+    "jobTitle": "Principal Consultant",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Jay Geoffrey Advisory"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "addressCountry": "US"
+    },
+    "email": "mailto:jaygthegreatmnyc@gmail.com",
+    "url": "https://jaygdev.github.io/",
+    "sameAs": [
+      "https://www.linkedin.com/in/jay-geoffrey-05b1b4357/",
+      "https://github.com/jaygdev"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="eyebrow">
+        <span class="dot"></span>
+        Jay Geoffrey Advisory • New York, NY
+      </div>
+      <h1>Jay Geoffrey</h1>
+      <div class="subtitle">Digital Strategy, Technical SEO, AI Workflows &amp; Media Operations (New York, NY)</div>
+      <p class="bio">
+        Independent digital strategist, technical systems architect, and behind-the-scenes media operations partner advising independent NYC authors, podcasters, and educators.
+      </p>
+      <div class="contact-bar">
+        <a class="btn btn-primary" href="mailto:jaygthegreatmnyc@gmail.com">jaygthegreatmnyc@gmail.com</a>
+        <a class="btn btn-secondary" href="https://www.linkedin.com/in/jay-geoffrey-05b1b4357/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+        <a class="btn btn-secondary" href="https://github.com/jaygdev" target="_blank" rel="noopener noreferrer">GitHub (@jaygdev)</a>
+      </div>
+    </header>
+
+    <section>
+      <h2>Selected Work &amp; Capabilities</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Media Operations &amp; Press Triage</h3>
+          <p>
+            Managing press inboxes, journalist queries (Qwoted, Featured, Substack), and podcast/editorial bookings for represented subject-matter experts. Coordinate end-to-end source verification, deadline tracking, and editorial commentary workflows.
+          </p>
+          <div class="tags">
+            <span class="tag">Qwoted PR &amp; Source Management</span>
+            <span class="tag">Featured.com</span>
+            <span class="tag">Substack Editorial Ops</span>
+            <span class="tag">Press Inbox Triage</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Web Architecture &amp; Technical SEO</h3>
+          <p>
+            Full-stack Astro web publishing, Google Search Console &amp; GA4 analytics engineering, and conversion funnel optimization. Designing fast, accessible static and hybrid web properties with structured schema and automated preflight verification.
+          </p>
+          <div class="tags">
+            <span class="tag">Astro</span>
+            <span class="tag">Google Search Console API</span>
+            <span class="tag">GA4 Data API</span>
+            <span class="tag">Structured Data / JSON-LD</span>
+            <span class="tag">Conversion Funnels</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>AI &amp; Visual Workflows</h3>
+          <p>
+            Custom Flux LoRA model training, Lightroom/Excire digital asset curation, and creative production pipelines. Building repeatable editorial automation and human-in-the-loop review dashboards for independent publications and educators.
+          </p>
+          <div class="tags">
+            <span class="tag">Flux LoRA Training</span>
+            <span class="tag">Lightroom &amp; Excire Curation</span>
+            <span class="tag">Editorial Automation</span>
+            <span class="tag">Google Apps Script Bridges</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Practice Overview</h2>
+      <div class="engagement-box">
+        <p>
+          <strong>Role:</strong> Principal Consultant, Jay Geoffrey Advisory (New York, NY)
+        </p>
+        <p>
+          <strong>Focus:</strong> Long-term fractional technical, SEO, and media operations support for independent writers, educators, and boutique NYC practices. Most client engagements operate behind the scenes managing domain press inboxes, technical publishing repositories, and analytics infrastructure.
+        </p>
+        <p>
+          <strong>Direct Contact &amp; Media Verification:</strong> <a href="mailto:jaygthegreatmnyc@gmail.com">jaygthegreatmnyc@gmail.com</a> • <a href="https://www.linkedin.com/in/jay-geoffrey-05b1b4357/" target="_blank" rel="noopener noreferrer">linkedin.com/in/jay-geoffrey-05b1b4357</a>
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <div>&copy; 2026 Jay Geoffrey Advisory • New York, NY</div>
+      <div>
+        <a href="https://www.linkedin.com/in/jay-geoffrey-05b1b4357/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        &nbsp;•&nbsp;
+        <a href="mailto:jaygthegreatmnyc@gmail.com">jaygthegreatmnyc@gmail.com</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
